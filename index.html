@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kia Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .content-container {
+        background-color: rgb(246 247 247) !important;
+      }
+
+      ul {
+        list-style-type: none; /* Remove the default dot */
+      }
+
+      li::before {
+        content: '\2713'; /* Unicode checkmark symbol */
+        display: inline-block;
+        width: 1em; /* Adjust the width to align with the text */
+        margin-left: -1em; /* Move the checkmark to the left of the text */
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="container-fluid content-container d-flex align-content-center justify-content-center"
+    >
+      <div class="mx-auto mt-xl-5 mb-5 flex-column flex-md-row">
+        <h1 class="fw-bolder">Programul Rabla 2023</h1>
+        <h3>
+          Guvernul sprijină înlocuirea mașinilor vechi în România prin Programul
+          RABLA, care oferă o
+        </h3>
+      </div>
+    </div>
+    <div
+      class="container-fluid d-flex align-content-center justify-content-center"
+    >
+      <img src="https://placehold.co/1800x600" class="img-fluid" />
+    </div>
+    <div class="container-fluid d-flex mt-5 flex-column flex-md-row">
+      <div
+        class="container-fluid d-flex align-content-center justify-content-center flex-column"
+      >
+        <div
+          class="d-flex align-content-center justify-content-center flex-row mb-5"
+        >
+          <img
+            src="https://placehold.co/100x100"
+            class="img-fluid rounded-circle"
+          />
+          <img
+            src="https://placehold.co/100x100"
+            class="img-fluid ms-2 rounded-circle"
+          />
+          <div class="ms-2">
+            <h3>Programul</h3>
+            <h1 class="fw-bolder">Rabla Clasic</h1>
+          </div>
+        </div>
+        <div class="m-auto">
+          <img src="https://placehold.co/700x500" class="img-fluid w-auto" />
+        </div>
+        <div>
+          <p>
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              +
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Niro HEV, XCeed MY24, Ceed MY24, ProCeed MY24, Ceed SW MY24,
+              Stonic, Picanto, Sportage MY23, Sportage HEV MY23, Sorento HEV
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-fluid d-flex align-content-center justify-content-center flex-column text-wrap"
+      >
+        <h3 class="fw-bolder">
+          Pentru vehicule cu motor pe combustie sau hibrid fără Plug-In
+        </h3>
+        <p class="fs-4">
+          Programul RABLA are la bază acordarea unei tichet în valoare de 7.000
+          lei pentru o mașină veche casată, sau 10.000 lei pentru casarea a două
+          vehicule uzate. Tichetul este utilizabil doar pentru achiziția unei
+          mașini noi cu noxe emise de maximum 155g CO2/km în regim WLTP. Pentru
+          achiziția unui autoturism nou se pot folosi maxim 2 tichete RABLA.
+        </p>
+        <p class="fs-4">
+          Pe lângă suma de 7.000 lei, pentru o mașină veche casată, respectiv
+          10.000 lei pentru 2 mașini vechi casate, utilizatorul poate beneficia
+          de următoarele eco-bonusuri suplimentare în cazul în care se
+          îndeplinesc condițiile de mai jos:
+        </p>
+        <ul class="fs-4">
+          <li>
+            <span class="fw-bolder">Eco-ticket de 1.500 lei</span>, pentru
+            casarea fiecărui autovehicul uzat cu o vechime de cel puțin 15 ani
+            de la data fabricației și care are norma de poluare Euro 3 sau
+            inferioară („eco-bonus de vechime”).
+          </li>
+          <li>
+            <span class="fw-bolder">Eco-ticket de 1.500 lei</span>, pentru
+            cumpărarea unei mașini al cărei motor generează emisii de CO2 mai
+            mici sau egale cu 120g CO2/km în regim WLTP.
+          </li>
+          <li>
+            <span class="fw-bolder">Eco-ticket de 1.500 lei</span> pentru
+            achiziția unei mașini noi cu sistem GPL/GNC.
+          </li>
+          <li>
+            Eco-ticket de 3.000 lei pentru achiziția unui autoturism nou hibrid
+            (fără Plug-In).
+          </li>
+        </ul>
+        <a href="/configurator">
+          <button class="btn btn-dark btn-lg rounded-0 p-3">
+            Configurator
+          </button>
+        </a>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
